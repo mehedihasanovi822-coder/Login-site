@@ -252,3 +252,35 @@ header {
 .login-register p a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 667px) {
+    .wrapper {
+        width: 300px;
+        padding: 30px;
+    }
+
+    .input-box input {
+        width: 250px;
+    }
+    header {
+        padding: 2px 35px;
+    }
+    header .logo {
+        font-size: 1rem;
+    }
+    .navigation a, .navigation .btnLogin-popup {
+        font-size: 0.8rem;
+        margin-left: 20px;
+    }
+    .navigation .btnLogin-popup {
+        width: 100px;
+        height: 40px;
+    }
+    .navigation a:hover::after {
+        height: 2px;
+    }
+    .navigation a {
+        margin-left: 20px;
+        letter-spacing: 0px;
+    }
+}
